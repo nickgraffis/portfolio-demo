@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react'
 import { useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown'
 import { Navbar } from './Navbar';
+import Markdown from 'markdown-to-jsx';
 
 type Props = { }
 
@@ -25,9 +25,7 @@ export const Post: FC<Props> = () => {
               <p className="text-3xl font-semibold">Loading...</p>
             </div>
             :
-            <ReactMarkdown>
-              {postHTML}
-            </ReactMarkdown>
+            <Markdown>{postHTML}</Markdown>
         }
       </div>
     </div>
