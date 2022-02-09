@@ -11,6 +11,12 @@ export const App: FC<Props> = () => {
     <div className="max-w-3xl mx-auto">
       <Navbar />
       <About />
+      <div className="py-4">
+        <ul>
+          <li>React</li>
+          <li>TypeScript</li>
+        </ul>
+      </div>
     </div>
   )
 }
