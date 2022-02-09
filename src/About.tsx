@@ -6,12 +6,15 @@ type Props = { }
 export const About: FC<Props> = () => {
 
   return (
-    <p>Hey, my name is Nick Graffis and I love to play around
-      on the computer! I'm a software developer, and I'm currently
-      working on a project called <a href=''>Portfolio</a>.
-      I'm also a student at the University of Waterloo, and I'm
-      looking for a full-time position in the future.
-
+    <p className='w-[500px] -mt-16'>
+      Hey 👋 ! My name is Nick and I am an instructor at 
+      <a href="uci.edu"> UC Irvine</a> 💙💛 College of Continuing Education.
+      I am also a full-stack developer working at Model Match where
+      I mostly work with AWS (ElasticSearch, AppSync, SQS, SNS), Angular, Typescript, and PySpark. 🤖
+      <br />
+      <br />
+      This is a quick example of a React portfolio. With some blog
+      posting functionality. Want to use it? Please do!
     </p>
   )
 }
